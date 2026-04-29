@@ -64,11 +64,13 @@ Source: https://www.kaggle.com/datasets/thedevastator/national-ecological-footpr
 ### Hypothesis Testing
 
 H₀: ไม่มีความสัมพันธ์ระหว่าง EFDelta และ GDPDelta
+
 H₁: มีความสัมพันธ์
 
 ค่าที่แสดงใน Console:
 
 Correlation coefficient (r)
+
 p-value
 
 ### 📊 Regression Model
@@ -80,16 +82,10 @@ GDPDelta = β₀ + β₁(EFDelta) + β₂(GDP2009) + ε
 ผลลัพธ์ที่แสดง:
 
 Coefficients (β): แสดงผลกระทบของตัวแปรอิสระต่อ GDPDelta
+
 p-values: ใช้ทดสอบนัยสำคัญทางสถิติของแต่ละตัวแปร
+
 r: แสดงให้เห็นถึงความสัมพันธ์ระหว่าง EFDelta และ GDPDelta
-
-##  การตีความ (Interpretation)
-
-ค่า β₀ แสดงค่า GDPDelta ที่คาดการณ์ได้เมื่อ EFDelta และ GDP2009 เท่ากับ 0
-ค่า β₁ แสดงผลกระทบของสิ่งแวดล้อมต่อเศรษฐกิจ
-ค่า β₂ แสดงผลของ GDP ตั้งต้นต่อการเติบโตของเศรษฐกิจ
-p-value ใช้ตัดสินความมีนัยสำคัญทางสถิติ
-R² แสดงความสามารถของโมเดลในการอธิบายข้อมูล
 
 ##  ข้อจำกัด (Limitations)
 
