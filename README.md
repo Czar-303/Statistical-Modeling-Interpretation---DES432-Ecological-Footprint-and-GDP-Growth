@@ -45,23 +45,23 @@ Source: https://www.kaggle.com/datasets/thedevastator/national-ecological-footpr
 
 เมื่อรันโปรแกรม project.py กราฟจะแสดงขึ้นมาตามลำดับดังนี้:
 
-### 📈 หน้าต่างที่ 1: Distribution of GDP Growth
+### 📊 หน้าต่างที่ 1: Distribution of GDP Growth
 
 แสดง Histogram ของ GDPDelta เพื่อดูการกระจายตัวของการเติบโตทางเศรษฐกิจ
 
-### 📊 หน้าต่างที่ 2: EFDelta vs GDPDelta
+### 📈 หน้าต่างที่ 2: EFDelta vs GDPDelta
 
 แสดง Scatterplot เพื่อดูความสัมพันธ์ระหว่าง: การเปลี่ยนแปลงของสิ่งแวดล้อม และ การเติบโตทางเศรษฐกิจ
 
-### 📉 หน้าต่างที่ 3: Regression Analysis
+### 📈 หน้าต่างที่ 3: Regression Analysis
 
 แสดง Regression Line พร้อมค่า Correlation (r) และ p-value
 
-### 📉 หน้าต่างที่ 4: Residual Plot
+### 📈 หน้าต่างที่ 4: Residual Plot
 
 แสดงความคลาดเคลื่อนของโมเดล (Residuals)
 
-## 🔍 ผลลัพธ์ที่แสดง:
+## 🔍  ผลลัพธ์ใน Console::
 
 Coefficients (β): แสดงผลกระทบของตัวแปรอิสระต่อ GDPDelta
 
