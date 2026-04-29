@@ -14,7 +14,9 @@
 
 โปรเจกต์นี้พัฒนาด้วยภาษา Python จำเป็นต้องติดตั้ง Library ที่เกี่ยวข้องก่อนใช้งาน โดยรันคำสั่งต่อไปนี้ใน Terminal หรือ PowerShell:
 
+```
 python -m pip install pandas numpy matplotlib seaborn statsmodels scipy
+```
 
 ## 📊 ข้อมูลที่ใช้ (Dataset)
 
@@ -59,41 +61,10 @@ Source: https://www.kaggle.com/datasets/thedevastator/national-ecological-footpr
 
 แสดงความคลาดเคลื่อนของโมเดล (Residuals)
 
-## 🔍 การวิเคราะห์ทางสถิติ (Statistical Analysis)
-
-### Hypothesis Testing
-
-H₀: ไม่มีความสัมพันธ์ระหว่าง EFDelta และ GDPDelta
-
-H₁: มีความสัมพันธ์
-
-ค่าที่แสดงใน Console:
-
-Correlation coefficient (r)
-
-p-value
-
-### 📊 Regression Model
-
-โมเดลที่ใช้:
-
-GDPDelta = β₀ + β₁(EFDelta) + β₂(GDP2009) + ε
-
-ผลลัพธ์ที่แสดง:
+## 🔍 ผลลัพธ์ที่แสดง:
 
 Coefficients (β): แสดงผลกระทบของตัวแปรอิสระต่อ GDPDelta
 
 p-values: ใช้ทดสอบนัยสำคัญทางสถิติของแต่ละตัวแปร
 
 r: แสดงให้เห็นถึงความสัมพันธ์ระหว่าง EFDelta และ GDPDelta
-
-##  ข้อจำกัด (Limitations)
-
-ใช้ข้อมูลเพียง 2 ช่วงเวลา (2009, 2013)
-ไม่รวมปัจจัยอื่น เช่น นโยบายเศรษฐกิจ
-Correlation ≠ Causation
-
-### 📌 สรุป (Conclusion)
-
-โปรเจกต์นี้แสดงให้เห็นถึงความสัมพันธ์ระหว่างการเติบโตทางเศรษฐกิจและผลกระทบต่อสิ่งแวดล้อม ซึ่งช่วยให้เข้าใจว่า
-การพัฒนาเศรษฐกิจมีความยั่งยืนหรือขึ้นอยู่กับการใช้ทรัพยากร
